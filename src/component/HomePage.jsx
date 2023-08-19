@@ -31,7 +31,7 @@ const HomePage = () => {
             </div>
             <img
               className="img-fluid w-50 d-none d-sm-block p-5"
-              src="/img/showcase.svg"
+              src="https://drive.google.com/file/d/1LNsJFFdjBkPyhtUsYRjAicvL1n1CzJDM/view?usp=sharing"
               alt=""
             />
           </div>
