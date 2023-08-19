@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arvndlr.github.io/static/css/main.44f8b8b5.css",
+    "main.js": "/arvndlr.github.io/static/js/main.23f0caeb.js",
+    "static/js/787.5988a835.chunk.js": "/arvndlr.github.io/static/js/787.5988a835.chunk.js",
+    "index.html": "/arvndlr.github.io/index.html",
+    "main.44f8b8b5.css.map": "/arvndlr.github.io/static/css/main.44f8b8b5.css.map",
+    "main.23f0caeb.js.map": "/arvndlr.github.io/static/js/main.23f0caeb.js.map",
+    "787.5988a835.chunk.js.map": "/arvndlr.github.io/static/js/787.5988a835.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.23f0caeb.js"
+  ]
+}
