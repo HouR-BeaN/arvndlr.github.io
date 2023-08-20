@@ -32,7 +32,7 @@ const HomePage = () => {
             </div>
             <img
               className="img-fluid w-50 d-none d-sm-block p-5"
-              src={showcase}
+              src={require("./img/showcase.svg")}
               alt=""
             />
           </div>
