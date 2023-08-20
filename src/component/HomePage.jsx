@@ -2,7 +2,6 @@ import React from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Hairstylist from "./Hairstylist";
-import showcase from "./img/showcase.svg";
 
 const HomePage = () => {
   return (
@@ -32,7 +31,11 @@ const HomePage = () => {
             </div>
             <img
               className="img-fluid w-50 d-none d-sm-block p-5"
+<<<<<<< HEAD
               src={require("./img/showcase.svg")}
+=======
+              src="/img/showcase.svg"
+>>>>>>> parent of 9c5bfab (Update showcase in homepage.jsx)
               alt=""
             />
           </div>
