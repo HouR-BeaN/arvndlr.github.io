@@ -2,8 +2,9 @@ import React from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Hairstylist from "./Hairstylist";
-import showcase from "../component/img/showcase.svg";
 
+const baseUrl = process.env.PUBLIC_URL; // This should automatically use the correct base URL
+const imagePath = `${baseUrl}/img/showcase.svg`;
 const HomePage = () => {
   return (
     <div>
@@ -32,7 +33,7 @@ const HomePage = () => {
             </div>
             <img
               className="img-fluid w-50 d-none d-sm-block p-5"
-              src={require("../component/img/showcase.svg")}
+              src={imagePath}
               alt=""
             />
           </div>
