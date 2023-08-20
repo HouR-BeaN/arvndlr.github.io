@@ -3,7 +3,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Hairstylist from "./Hairstylist";
 
-const baseUrl = process.env.PUBLIC_URL; // This should automatically use the correct base URL
+const baseUrl = process.env.PUBLIC_URL;
 const imagePath = `${baseUrl}/img/showcase.svg`;
 const HomePage = () => {
   return (
