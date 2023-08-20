@@ -1,5 +1,26 @@
 import React from "react";
 import Schedule from "./Schedule";
+import ceasar_cut from "./img/men/ceasar-cut.webp";
+import classic_ceasar_cut from "./img/men/classic-ceasar-cut.webp";
+import classic_curly_fade from "./img/men/classic-curly-fade.jpg";
+import cool_comb_over from "./img/men/cool-comb-over.webp";
+import deep_side_part from "./img/men/deep-side-part.webp";
+import flat_top_hair_cut from "./img/men/flat-top-hair-cut.webp";
+import full_fringe_cut from "./img/men/full-fringe-cut.webp";
+import hard_part_fade from "./img/men/hard-part-fade.jpg";
+import hard_part from "./img/men/hard-part.jpg";
+import messsy_ceasar from "./img/men/messy-ceasar-cut.webp";
+import messy_fade from "./img/men/messy-fade.webp";
+import sleek_finge_cut from "./img/men/sleek-fringe-cut.webp";
+import slicked_back_mohawk from "./img/men/slicked-back-mohawk.webp";
+import slicked_back from "./img/men/slicked-back.webp";
+import straight_strands from "./img/men/straight-stands.webp";
+import surfer_style from "./img/men/surfer-style.webp";
+import sweep_it_to_the_side from "./img/men/sweep-it-to-the-side.webp";
+import styled_waves from "./img/men/sytled-waves.webp";
+import teeny_mohawk from "./img/men/teeny-mohawk.webp";
+import thick_hair from "./img/men/thick-hair.webp";
+import windblown_hair from "./img/men/windblown-hair.jpg";
 
 export default function () {
   return (
@@ -12,7 +33,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/ceasar-cut.webp"
+                    src={ceasar_cut}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -33,7 +54,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/classic-ceasar-cut.webp"
+                    src={classic_ceasar_cut}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -54,7 +75,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/messy-ceasar-cut.webp"
+                    src={messsy_ceasar}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -75,7 +96,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/sleek-fringe-cut.webp"
+                    src={sleek_finge_cut}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -96,7 +117,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men//slicked-back-mohawk.webp"
+                    src={slicked_back_mohawk}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -117,7 +138,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/hard-part.jpg"
+                    src={hard_part}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -138,7 +159,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/teeny-mohawk.webp"
+                    src={teeny_mohawk}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -159,7 +180,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/classic-curly-fade.jpg"
+                    src={classic_curly_fade}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -180,7 +201,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/flat-top-hair-cut.webp"
+                    src={flat_top_hair_cut}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -205,7 +226,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/sweep-it-to-the-side.webp"
+                    src={sweep_it_to_the_side}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -226,7 +247,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/windblown-hair.jpg"
+                    src={windblown_hair}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -247,7 +268,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/deep-side-part.webp"
+                    src={deep_side_part}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -268,7 +289,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/hard-part-fade.jpg"
+                    src={hard_part_fade}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -289,7 +310,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/surfer-style.webp"
+                    src={surfer_style}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -310,7 +331,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/sytled-waves.webp"
+                    src={styled_waves}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -331,7 +352,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/straight-stands.webp"
+                    src={straight_strands}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -352,7 +373,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/slicked-back.webp"
+                    src={slicked_back}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}
@@ -373,7 +394,7 @@ export default function () {
               <div className="card bg-secondary" style={{ width: "18rem" }}>
                 <div className="container mt-5" style={{ height: "18rem" }}>
                   <img
-                    src="/img/men/cool-comb-over.webp"
+                    src={cool_comb_over}
                     alt="ceasar cut"
                     className="card-img-top"
                     style={{ height: "18rem", objectFit: "cover" }}

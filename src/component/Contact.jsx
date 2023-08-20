@@ -1,4 +1,5 @@
 import React from "react";
+import contact from "./img/contact.svg";
 
 const Contact = () => {
   return (
@@ -23,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="col-md contact-container d-flex align-items-cente justify-content-end">
               <img
-                src="img/contact.svg"
+                src={contact}
                 className="img-fluid"
                 alt=""
                 style={{ objectFit: "cover" }}

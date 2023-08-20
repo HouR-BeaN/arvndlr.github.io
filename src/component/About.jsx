@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+import fundamentals from "./img/fundamentals.svg";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-md">
               <img
-                src="/img/fundamentals.svg"
+                src={fundamentals}
                 className="img-fluid w-50"
                 alt=""
               />

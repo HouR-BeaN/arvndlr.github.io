@@ -4,9 +4,6 @@ import Contact from "./Contact";
 import Hairstylist from "./Hairstylist";
 import showcase from "./img/showcase.svg";
 
-const baseUrl = process.env.PUBLIC_URL;
-const imagePath = `${baseUrl}/img/showcase.svg`;
-
 const HomePage = () => {
   return (
     <div>
