@@ -31,11 +31,7 @@ const HomePage = () => {
             </div>
             <img
               className="img-fluid w-50 d-none d-sm-block p-5"
-<<<<<<< HEAD
-              src={require("./img/showcase.svg")}
-=======
               src="/img/showcase.svg"
->>>>>>> parent of 9c5bfab (Update showcase in homepage.jsx)
               alt=""
             />
           </div>
